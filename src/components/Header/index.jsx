@@ -6,7 +6,7 @@ import { MenuModal } from "../MenuModal";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { IoCloudDownloadOutline } from "react-icons/io5";
 import cv from "../../assets/Currículo josué ramos dev.pdf";
-import logOutBeco from '../../assets/pictures/2444.png'
+import logOutBeco from '../../assets/pictures/logo512.png'
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
