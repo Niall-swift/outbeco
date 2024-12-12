@@ -49,6 +49,7 @@ function GContext({ children }) {
     name:"chicken mush",
     date:"59,90",
     description:"Um delicioso empanado de frango com um cremoso queijo por cima com temperos da casa e batata frita.",
+    stacks: ""
   },
   {
     id:"5",
@@ -68,6 +69,7 @@ function GContext({ children }) {
     name:"onion flower",
     date:"65,90",
     description:"Acompanhada de um molho cremoso e aromático, essa onion flower e uma explosão de sabores que certamente irão conquistar seu paladar.",
+    stacks: ""
   },
 ]
   return (
