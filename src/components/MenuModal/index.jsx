@@ -29,7 +29,6 @@ export const MenuModal = ({ isOpen, setIsOpen }) => {
               }}
               className="font-Odasans text-5xl font-semibold text-Xbox-Purple"
             >
-              JRDS
             </DialogTitle>
             <div className="mt-8 flex w-full flex-col items-center gap-2 font-medium">
               <motion.div
