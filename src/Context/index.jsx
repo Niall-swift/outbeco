@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
-import dayfoodImg from '../assets/imgCadapio/OUTBECO-079-200x300.jpg'
-import dayfoodmobileImg from '../assets/imgCadapio/OUTBECO-104-200x300.jpg'
+import dayfoodImg from '../assets/imgCadapio/Gemini_Generated_Image_jlw9rwjlw9rwjlw9.jpeg'
+import dayfoodmobileImg from '../assets/imgCadapio/jpg (3).jpeg'
 import expofilmeimg from '../assets/imgCadapio/jpg.jpeg'
 import avlimg from '../assets/imgCadapio/jpg (1).jpeg'
 import maisembreveimg from '../assets/imgCadapio/jpg (2).jpeg'
@@ -16,20 +16,20 @@ function GContext({ children }) {
     git: "",
     sit: "https://dayfood.vercel.app/Home",
     image: `${dayfoodImg}`,
-    name:"Dayfood",
+    name:"onion rings",
     date:"25,90",
-    description:"o dayfood um sistema de pedidos de comida, permitindo que os clientes façam pedidos online e que o administrador gerencie o menu de forma eficiente.",
-    stacks:"JavaScript;React;Axios;Nookies;framer-motion;jquery;lodash;styled-components",
+    description:"Uma sinfonia de sabores crocantes e adocicados, nossos anéis de cebola são uma experiência gastronômica inesquecível. Cada anel é cuidadosamente empanado e frito até atingir a perfeição dourada, revelando uma textura crocante por fora e um interior macio e suculento.",
+    stacks:"",
   },
   {
     id:"2",
     git: "",
     sit: "https://play.google.com/apps/test/com.niallswift.dayfoodmobile/14",
     image: `${ dayfoodmobileImg}`,
-    name:"Dayfood-Garçom",
+    name:"beef chunch",
     date:"65,90",
-    description:"Imagine um restaurante onde os pedidos são feitos em um piscar de olhos e a cozinha recebe tudo com precisão, Essa é a realidade do Dayfood Garçom, um aplicativo que transforma o atendimento ao cliente!!",
-    stacks:"TypeScript;ReactNative;NativeBase;Axios",
+    description:"5 tiras de beef tão crocantes por fora quanto macios por dentro com uma deliciosa batata frita.",
+    stacks:"",
   },
   {
     id:"3",
@@ -46,18 +46,18 @@ function GContext({ children }) {
     git: "",
     sit: "https://play.google.com/store/apps/details?id=com.niallswift.avlTelecom&pcampaignid=web_share",
     image: `${avlimg}`,
-    name:"Avl Telecom",
+    name:"chicken mush",
     date:"59,90",
-    description:"(AVL TELECOM foi um freelancer)  O aplicativo foi desenvolvido para que os usuários da empresa AVL consigam ver suas faturas, pagá-las solicitando 2° via e ver condição de conexão.",
+    description:"Um delicioso empanado de frango com um cremoso queijo por cima com temperos da casa e batata frita.",
   },
   {
     id:"5",
     git: "",
     sit: "",
     image: `${maisembreveimg}`,
-    name:"Mais em Breve",
+    name:"bêco appetizers",
     date:"109,90",
-    description:"Novos projetos irão aparecer aqui. ",
+    description:"bêco appetizers e para você que quer um pouco de tudo com 4 drumete  4 onion rings 4Crispy Rib’s meia costela ao molho babecuer e batata frita.",
     stacks:"",
   },
   {
@@ -65,9 +65,9 @@ function GContext({ children }) {
     git: "",
     sit: "https://dayfood.vercel.app/Home",
     image: `${oninflays}`,
-    name:"Dayfood",
+    name:"onion flower",
     date:"65,90",
-    description:"o dayfood um sistema de pedidos de comida, permitindo que os clientes façam pedidos online e que o administrador gerencie o menu de forma eficiente.",
+    description:"Acompanhada de um molho cremoso e aromático, essa onion flower e uma explosão de sabores que certamente irão conquistar seu paladar.",
   },
 ]
   return (
